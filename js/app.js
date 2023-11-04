@@ -3,7 +3,12 @@ let galeryfill = document.querySelector('.gallery')
 // console.log(galeryfill);
 
 let releases_list = [
-	
+	{
+		performer: 'Isotwelve - Tonight!',
+		desc: 'ну что, альбом скоро.',
+		link:'https://t.me/isotwelve',
+		date: '??.12.2023', imgurl:'https://sun9-26.userapi.com/impg/izHZSllbIizGYWJ7nl6nhKZZdFALVXmQ8hG6hg/hyX2q9gUKKo.jpg?size=1280x1280&quality=95&sign=99ed6f21af5f355303d03b8c93601cb4&type=album'
+	 },
  {
   performer: 'Isotwelve - Посты',
   desc: 'новая композиция, в которой автор размышляет над метаморфозом личности. всё это смешано с приятной и атмосферной музыкой. «посты» - второй сингл с грядущего альбома, который вы в скором времени услышите.',
@@ -26,7 +31,7 @@ let releases_list = [
 	},
 	{
 		performer: 'Isotwelve - Плёнка',
-		desc: "Довольно простая и мелодичная песня, родившаяся спонтанно. Звуки синтезаторов, приятная драм-партия и воздушный вокал. Это - Плёнка, часть дебютного альбома Isotwelve 'Memoria'.",
+		desc: "what is this mfks?!",
 		link: 'https://band.link/kEaH6',
 		date: '03.03.2023',
 		imgurl: 'https://is4-ssl.mzstatic.com/image/thumb/Music116/v4/79/84/8d/79848df9-ebdc-47a1-9fe2-ee15b8ea7efc/0.jpg/500x500bb.jpg'
@@ -117,7 +122,7 @@ const fill_releases = (items,block) => {
 	<div class="frame">
                 <div class="frame__content">
                     <h3>about us</h3>
-                    <p>Смысл жизни не только в передаче наших генов. Мы можем оставить после себя намного больше, чем ДНК посредством языка, музыки, литературы и кино: всё то, что мы видим, слышим и чувствуем. Радость, печаль и куча эмоции - вот что мы можем сохранить для будущих поколений.</p>
+                    <p>Это всё моё. То, что принадлежит мне, и в чём я участвовал.</p>
                     <div id = "social_block">
 										<a href="https://instagram.com/san_smislom"><img src = "https://www.edigitalagency.com.au/wp-content/uploads/new-Instagram-logo-white-glyph.png" class = 'social_logos'></a>
                     
