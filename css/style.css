@@ -21,7 +21,7 @@
 }
 
 body {
-    background-color: black;
+	  background-color: rgb(5 5 5);
     color: white;
     font-size: calc(var(--index) * .8);
     /* font-family: coolfont_bro, sans-serif; */
@@ -86,7 +86,7 @@ h1,h2,h3,h4 {
 }
 
 .frame_bg {
-    background-color: rgb(0 0 0 / .88);
+	background-color: rgb(5 5 5 / .88);
 }
 
 video.frame-media {
@@ -170,6 +170,30 @@ a {
 {
 	font-family:'New Romantics', sans-serif;
 	font-size: calc(var(--index) * 5);
+	position: relative;
+}
+
+.logo span
+{
+	position: relative;
+	display: inline-block;
+	color: #EFD9CE;
+	font-size: calc(var(--index) * 5);
+	animation: anim 2s ease-in-out infinite;
+	animation-delay: calc(0.1s * var(--i));
+	margin: calc(-0.45vw + -0.45vh);
+}
+
+@keyframes anim
+{
+	0%, 100%
+	{
+		transform: translateY(0px);
+	}
+	50%
+	{
+		transform: translateY(15px);
+	}
 }
 
 

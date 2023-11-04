@@ -11,7 +11,7 @@ let releases_list = [
 	 },
  {
   performer: 'Isotwelve - Посты',
-  desc: 'новая композиция, в которой автор размышляет над метаморфозом личности. всё это смешано с приятной и атмосферной музыкой. «посты» - второй сингл с грядущего альбома, который вы в скором времени услышите.',
+  desc: 'приятная композиция, хорошая.',
   link:'https://band.link/jDrpq',
   date: '14.07.2023', imgurl:'https://music-bandlink.s3.yandex.net/img/bandlinks/jDrpq_a8uaqrwS_370x370.jpeg'
  },
@@ -39,7 +39,7 @@ let releases_list = [
 	{
 		
 		performer: 'Isotwelve - Wake Up',
-		desc: 'Экспериментальный релиз, который предшествует грядущему альбому исполнителя. Обволакивающий уши эмбиент, который сменяется на спокойную, но, в то же время, напряженную композицию, разбавленную строчками. ',
+		desc: 'ну чет прикольное, экспериментальное, но что с этим делать, я не знаю.',
 		link: 'https://band.link/bIf6S',
 		date: '03.02.2023',
 		imgurl: 'https://cloudinary-cdn.ffm.to/s--R5pXop0V--/f_webp/https%3A%2F%2Fimagestore.ffm.to%2Flink%2Feaaf4d740865b7c11f39846b173423eb.jpeg'
@@ -93,8 +93,17 @@ const fill_releases = (items,block) => {
 	block.innerHTML = `
 	<div class="frame">
                 <div class="frame__content">
-                    <p class = "logo">iconacash</p>
-										<!-- <img src = "img/logo.png" id = 'mainlogo_img'> -->
+										<div class = "logo">
+										<span style = "--i:1;">i</span>
+										<span style = "--i:2;">k</span>
+										<span style = "--i:3;">o</span>
+										<span style = "--i:4;">n</span>
+										<span style = "--i:5;">a</span>
+										<span style = "--i:6;">c</span>
+										<span style = "--i:7;">a</span>
+										<span style = "--i:8;">s</span>
+										<span style = "--i:9;">h</span>
+										</div>
                 </div>
             </div>
 
@@ -122,7 +131,7 @@ const fill_releases = (items,block) => {
 	<div class="frame">
                 <div class="frame__content">
                     <h3>about us</h3>
-                    <p>Это всё моё. То, что принадлежит мне, и в чём я участвовал.</p>
+                    <p>«Это - настоящий я. Настоящий я и настоящие вы»</p>
                     <div id = "social_block">
 										<a href="https://instagram.com/san_smislom"><img src = "https://www.edigitalagency.com.au/wp-content/uploads/new-Instagram-logo-white-glyph.png" class = 'social_logos'></a>
                     
