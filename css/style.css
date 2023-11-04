@@ -14,13 +14,13 @@
     --transition: .75s cubic-bezier(.25, 1, .5, 1)
 }
 
-@font-face {
+/* @font-face {
   font-family: 'New Romantics';
   src: url('https://www.fontsaddict.com/fontface/new-romantics.TTF') format("ttf"),
 	url('fonts/romantic-webfont.woff') format("woff"),
 	url('fonts/romantic-webfont.woff2') format("woff2");
 	
-}
+} */
 
 body {
     background-color: black;
@@ -167,9 +167,10 @@ a {
 	margin-top: 20px;
 }
 
+
 .logo
 {
-	font-family:'New Romantics';
+	font-family:'New Romantics', sans-serif;
 	font-size: calc(var(--index) * 5);
 }
 
@@ -190,5 +191,10 @@ a {
 	}
 #mainlogo_img {
 	width: 180vw;
+}
+
+.logo
+{
+	font-size: calc(var(--index) * 4);
 }
 }
