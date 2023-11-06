@@ -133,11 +133,11 @@ const fill_releases = (items,block) => {
                     <h3>about us</h3>
                     <p>«Это - настоящий я. Настоящий я и настоящие вы»</p>
                     <div id = "social_block">
-										<a href="https://instagram.com/san_smislom"><img src = "https://www.edigitalagency.com.au/wp-content/uploads/new-Instagram-logo-white-glyph.png" class = 'social_logos'></a>
+										<a href="https://instagram.com/ikonacash"><img src = "https://www.edigitalagency.com.au/wp-content/uploads/new-Instagram-logo-white-glyph.png" class = 'social_logos'></a>
                     
-										<a href = "https://t.me/isotwelve"><img src = "https://static-00.iconduck.com/assets.00/telegram-icon-512x512-z8lb0qsx.png" class = 'social_logos'></a>
+										<a href = "https://t.me/ikonacash"><img src = "https://static-00.iconduck.com/assets.00/telegram-icon-512x512-z8lb0qsx.png" class = 'social_logos'></a>
                     
-										<a href = "https://vk.com/isotwelve"><img src = "https://cdn.freebiesupply.com/images/large/2x/vk-logo-white.png" class = 'social_logos'></a>
+										<a href = "https://vk.com/ikonacash"><img src = "https://cdn.freebiesupply.com/images/large/2x/vk-logo-white.png" class = 'social_logos'></a>
 										</div>
 								</div>
             </div>
