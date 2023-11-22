@@ -7,7 +7,7 @@ let releases_list = [
 		performer: 'Isotwelve - Tonight!',
 		desc: 'ну что, альбом очень скоро. обманул я вас с осенью, конечно, хе-хе!',
 		link:'https://band.link/MkGdw',
-		date: '1?.12.2023', imgurl:'https://sun9-26.userapi.com/impg/izHZSllbIizGYWJ7nl6nhKZZdFALVXmQ8hG6hg/hyX2q9gUKKo.jpg?size=1280x1280&quality=95&sign=99ed6f21af5f355303d03b8c93601cb4&type=album'
+		date: '??.12.2023', imgurl:'https://music-bandlink.s3.yandex.net/img/bandlinks/MkGdw_2GFS3FyD_370x370.jpeg'
 	 },
  {
   performer: 'Isotwelve - Посты',
