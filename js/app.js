@@ -5,9 +5,9 @@ let galeryfill = document.querySelector('.gallery')
 let releases_list = [
 	{
 		performer: 'Isotwelve - Tonight!',
-		desc: 'ну что, альбом очень скоро. обманул я вас с осенью, конечно, хе-хе!',
+		desc: 'мой альбом уже в сети! это эмоции, которыми я хотел поделиться.',
 		link:'https://band.link/MkGdw',
-		date: '??.12.2023', imgurl:'https://music-bandlink.s3.yandex.net/img/bandlinks/MkGdw_2GFS3FyD_370x370.jpeg'
+		date: '23.12.2023', imgurl:'https://music-bandlink.s3.yandex.net/img/bandlinks/MkGdw_2GFS3FyD_370x370.jpeg'
 	 },
  {
   performer: 'Isotwelve - Посты',
