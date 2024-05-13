@@ -3,6 +3,12 @@ let galeryfill = document.querySelector('.gallery')
 // console.log(galeryfill);
 
 let releases_list = [
+{
+		performer: 'Lunder - Stay Away!',
+		desc: 'Спустя время Lunder вновь возвращается на площадки с новым синглом эпохи «Кровь и вино». Готичный и энергичный.',
+		link:'https://band.link/djdFk',
+		date: '10.05.2024', imgurl:'https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7d/90/a1/7d90a17e-9b82-9aa7-58e0-f376bd10d34e/0.jpg/500x500bb.jpg'
+	 },
 	{
 		performer: 'Isotwelve - Tonight!',
 		desc: 'мой альбом уже в сети! это эмоции, которыми я хотел поделиться.',
