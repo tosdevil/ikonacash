@@ -4,6 +4,12 @@ let galeryfill = document.querySelector('.gallery')
 
 let releases_list = [
 {
+		performer: 'Isotwelve - better (not) look down',
+		desc: 'Приятный дримпоп о том, что лучше не смотреть вниз.',
+		link:'https://band.link/JskQo',
+		date: '15.11.2024', imgurl:'https://music-bandlink.s3.yandex.net/img/bandlinks/JskQo_3WRxyMUZ_370x370.jpeg'
+	 },
+{
 		performer: 'Lunder - Stay Away!',
 		desc: 'Спустя время Lunder вновь возвращается на площадки с новым синглом эпохи «Кровь и вино». Готичный и энергичный.',
 		link:'https://band.link/djdFk',
